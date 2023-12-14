@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/76a6755fe0.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 border-0">
+                <nav class="navbar navbar-expand bg-light d-flex justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <i class="fa-brands fa-instagram" style="font-size: 25px; width: 2rem;"></i>
+                        </div>
+                        <div>
+                            <h5>Instagram</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#modal">Create a new post</button>
+
+                        <div class="modal" tabindex="-1" id="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Create a new post</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label for="captionInput" class="form-label">Caption:</label>
+                                        <input type="text" class="form-control py-3"
+                                            placeholder="Add the caption of your post here">
+                                        <br></br>
+                                        <button class="button border-0"><i class="fa-solid fa-camera"></i></button>
+                                        <button class="button border-0"><i
+                                                class="fa-solid fa-location-pin"></i></button>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Publish</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" id="gearDropDown"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-gear"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="gearDropDown">
+                                <li class="dropdown-item"><button class="button border-0">Profile</button></li>
+                                <li class="dropdown-item"><button class="button border-0">Accesibility</button></li>
+                                <li class="dropdown-item"><button class="button border-0">Data and Privacy</button></li>
+                                <li class="dropdown-item">
+                                    <hr>
+                                </li>
+                                <li class="dropdown-item">
+                                    <button class="button border-0" style="color:#f10505;">Logout</button>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div><br></br>
+    <div class="row">
+        <div class="col-12 border-0 justify-content-center d-flex pb-8">
+
+            <ul class="nav nav-tabs justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" id="grid-tab" data-bs-toggle="tab" href="#grid"><i
+                            class="fa-solid fa-table-cells" style="font-size:25px;"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id="page-tab" data-bs-toggle="tab" href="#page"><i
+                            class="fa-solid fa-square" style="font-size:25px;"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab-pane fade" id="grid">
+            <div class="row">
+                <div class="col-4">
+                    <img src="https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-01.jpg"
+                        class="img-fluid p-1">
+                </div>
+                <div class="col-4">
+                    <img src="https://lh3.googleusercontent.com/hwau7OVWx96XaME5KpRuJ0I_MscrerK6SbRH1UwYHYaxIDQQtn7RZK02LDSfBzCreidFgDsJeXyqDct6EZiH6vsV=w640-h400-e365-rj-sc0x00ffffff"
+                        class="img-fluid p-1">
+                </div>
+                <div class="col-4">
+                    <img src="https://1.bp.blogspot.com/-iCnFX7eWVjs/XR9NQutHXcI/AAAAAAAAJ9k/ISWH3UXgJF8QJdsV6P9wh3agzOwOF_aYgCLcBGAs/s1600/cat-1285634_1920.png"
+                        class="img-fluid p-1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="https://live.staticflickr.com/3536/3858633433_ccc5046372_b.jpg"
+                        class="img-fluid p-1">
+                </div>
+                <div class="col-4">
+                    <img src="https://storage.googleapis.com/pod_public/1300/88149.jpg"
+                        class="img-fluid p-1">
+                </div>
+                <div class="col-4">
+                    <img src="https://images.radio.com/aiu-media/GettyImages1192159893-89a9a812-aac7-48b1-a6db-ab5c3156efa0.jpg"
+                        class="img-fluid p-1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg"
+                        class="img-fluid p-1">
+                </div>
+                <div class="col-4">
+                    <img src="https://images.all-free-download.com/images/graphiclarge/sky_555926.jpg"
+                        class="img-fluid p-1">
+                </div>
+                <div class="col-4">
+                    <img src="https://www.ellevetsciences.com/wp-content/uploads/2021/03/ElleVet_Peny_92-1024x717.jpg"
+                        class="img-fluid p-1">
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade show active" id="page">
+
+            <div class="row">
+                <div class="row" style="padding-bottom: 30px;">
+                    <div class="col-4 mx-auto">
+                        <div class="card" style="width: 40rem;">
+                            <div class="card-header d-flex justify-content-between">
+                            <h2>Lovely view</h2>
+                            <b> 05/03</b>
+                        </div>
+                            <img src="https://www.randomadventure.co.uk/wp-content/uploads/2019/02/52706500_802713876729241_4073798745366462464_n-scaled.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <b>800 likes</b>
+                                <p class="card-text">Awesome!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-bottom: 30px;">
+                    <div class="col-4 mx-auto">
+                        <div class="card" style="width: 40rem;">
+                            <div class="card-header d-flex justify-content-between">
+                            <h2>How big are you?</h2>
+                            <b> 15/11</b>
+                        </div>
+                            <img src="https://machinelearningmastery.com/wp-content/uploads/2017/01/A-Gentle-Introduction-to-the-Random-Walk-for-Times-Series-Forecasting-with-Python.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <b>9000 likes</b>
+                                <p class="card-text">Are you serious?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-bottom: 30px;">
+                    <div class="col-4 mx-auto">
+                        <div class="card" style="width: 40rem;">
+                            <div class="card-header d-flex justify-content-between">
+                            <h2>Weekend with friends</h2> 
+                            <b> 15/11</b>
+                        </div>
+                            <img src="https://www.signupgenius.com/cms/images/50-Random-Questions-to-Ask-to-Keep-Conversations-Going-1260x630.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <b>460 likes</b>
+                                <p class="card-text">OMG</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
